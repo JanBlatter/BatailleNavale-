@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <windows.h>
+#define MAXCHAR
 #pragma execution_character_set("utf-8") // pour accents
 /* Auteur : Jan blatter
  * Date : 08.03.2019
@@ -64,9 +65,14 @@ int main() {
             printf("Quel est votre nom ?\n");  // Demande le nom
             scanf("%s", nom);
 
+            if ("Score.txt" == NULL){
+                fpscore = fopen("Score.txt", "a+");
+                fprintf(fpscore, "%s", nom);
+            }
 
-            fpscore = fopen("Score.txt", "a+");
-            fprintf(fpscore, "%s", nom);
+
+
+
 
             system("cls");
 
@@ -197,9 +203,9 @@ int main() {
 
 
         case 2: // Score des anciennes parties
-            fscanf(fpscore, "%s",&nom);
-            fscanf(fpscore, "%d",&Score);
-            printf("%s   %d", nom,Score);
+
+        fgets(nom,)
+
 
 
             break;
