@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Jan.BLATTER/Documents/GitHub/BatailleNavale-/code/fonctions.h
+D:/Github Deskop/BatailleNavale-/code/fonctions.h
 stdlib.h
 -
 stdio.h
 -
 
-C:/Users/Jan.BLATTER/Documents/GitHub/BatailleNavale-/code/main.c
+D:/Github Deskop/BatailleNavale-/code/main.c
 stdio.h
 -
 stdlib.h
@@ -24,5 +24,5 @@ mmsystem.h
 time.h
 -
 fonctions.h
-C:/Users/Jan.BLATTER/Documents/GitHub/BatailleNavale-/code/fonctions.h
+D:/Github Deskop/BatailleNavale-/code/fonctions.h
 

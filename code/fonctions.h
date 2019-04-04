@@ -9,7 +9,7 @@
 
 int choix;//variable pour le choix du menu
 int choix2;   //Variable pour le choix des grilles
-int choix3;
+int choix3;         // variable pour appliquer l'aléatoire
 char nom[50];       // nom du joueur
 int ligne=0;            // variable pour la création des lignes
 int colonne=0;            // variable pour la création des colonnes
@@ -21,9 +21,9 @@ int Bateau2=0;  // Vie du bâteau
 int Bateau3=0;  // Vie du bâteau
 int Bateau4=0;  // Vie du bâteau
 int Condition=0;        //compteur pour l'affichage des coordonnées
-int Score=100;
-FILE *fpscore;
-int caractereActuel = 0;
+int Score=100;                      // compteur pour le score
+FILE *fpscore;                  // variable du fichier
+int caractereActuel = 0;                        // caractere pour lire
 
 
 
@@ -139,7 +139,7 @@ void Jeu(){
             break;
         case 2 :
             srand((unsigned)time( NULL ));
-            choix3 = rand() % 3;
+            choix3 = rand() %3;
             switch (choix3) {
                 case 1:
                     for (ligne = 0; ligne < 8; ligne++) {

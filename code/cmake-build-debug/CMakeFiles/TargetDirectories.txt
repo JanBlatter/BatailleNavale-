@@ -1,3 +1,3 @@
-C:/Users/Jan.BLATTER/Documents/GitHub/BatailleNavale-/code/cmake-build-debug/CMakeFiles/code.dir
-C:/Users/Jan.BLATTER/Documents/GitHub/BatailleNavale-/code/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Jan.BLATTER/Documents/GitHub/BatailleNavale-/code/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/Github Deskop/BatailleNavale-/code/cmake-build-debug/CMakeFiles/code.dir
+D:/Github Deskop/BatailleNavale-/code/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Github Deskop/BatailleNavale-/code/cmake-build-debug/CMakeFiles/rebuild_cache.dir
