@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <windows.h>
-#define MAXCHAR
+#include "fonctions.h"
+
 #pragma execution_character_set("utf-8") // pour accents
 /* Auteur : Jan blatter
  * Date : 08.03.2019
@@ -23,7 +24,7 @@ int Bateau4=0;  // Vie du bâteau
 int Condition=0;        //compteur pour l'affichage des coordonnées
 int Score=100;
 FILE *fpscore;
-
+int caractereActuel = 0;
 
 int menu()
 {
@@ -65,10 +66,15 @@ int main() {
             printf("Quel est votre nom ?\n");  // Demande le nom
             scanf("%s", nom);
 
-            if ("Score.txt" == NULL){
+
+
+
+            if (fpscore == NULL){
+
                 fpscore = fopen("Score.txt", "a+");
-                fprintf(fpscore, "%s", nom);
+                fprintf(fpscore, "%s \n", nom);
             }
+
 
 
 
@@ -184,14 +190,11 @@ int main() {
                         }
 
 
-                        if (Bateau1 >= 3 && Bateau2 >= 4 && Bateau3 >= 2 && Bateau4 >= 5) { //Victoire
+                        if (Bateau1 >= 3 || Bateau2 >= 4 || Bateau3 >= 2 || Bateau4 >= 5) { //Victoire
                             printf("Victoire, vous avez touché tous les bâteaux. La partie est terminée. \n\n");
                             printf("Voici le score : %d  \n", Score);
                             ConditionImpossible = ConditionImpossible + 1000;
-
-                            fprintf(fpscore, "%s","\n");
-                            fprintf(fpscore, "%d", Score);
-                            fprintf(fpscore, "%s","\n");
+                            fprintf(fpscore, "\n%d",Score);
 
                         }
 
@@ -203,22 +206,25 @@ int main() {
 
 
         case 2: // Score des anciennes parties
+        if (fpscore !=NULL)
+        {
+            //boucle de lecture des caractères un à un
+            do
+            {
+                caractereActuel = fgetc(fpscore); // on lit le caractère
+                printf("%c", caractereActuel); // on l'affiche
 
-        fgets(nom,)
+            }while (caractereActuel != EOF); // on continue tant que fgetc n'a pas retourné EOF (fin de fichier)
 
 
+        fclose(fpscore);
+    }
 
             break;
 
         case 3:
-            printf(" le jeu consiste a faire couler tous les bateaux de l'ennemi en touchant leurs parties.\n");                // l'aide
-            printf(" Tout d'abord , il faudra deviner où sont les bâteaux sur la grille. \n");
-            printf(" Apres cela, écriver les coordonées afin d'essayer de toucher une partie des bâteaux.\n");
-            printf(" Si toutes les parties d'un bâteau sont touchées. Le bâteau est coulé. Couler tous les bâteaux et la victoire sera votre.\n");
-            printf(" Vivre ou mourir , à vous de choisir.\n");
-
-
-            menu();
+            AfficherAide();
+            main();
             return 0;
 
 

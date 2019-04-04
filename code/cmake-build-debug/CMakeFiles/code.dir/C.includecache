@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/Jan.BLATTER/Documents/GitHub/BatailleNavale-/code/fonctions.h
+stdlib.h
+-
+stdio.h
+-
+
 C:/Users/Jan.BLATTER/Documents/GitHub/BatailleNavale-/code/main.c
 stdio.h
 -
@@ -13,4 +19,6 @@ stdlib.h
 -
 windows.h
 -
+fonctions.h
+C:/Users/Jan.BLATTER/Documents/GitHub/BatailleNavale-/code/fonctions.h
 

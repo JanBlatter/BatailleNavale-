@@ -76,6 +76,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Jan.BLATTER/Documents/GitHub/BatailleNavale-/code/fonctions.h">
+			<Option target="code"/>
+		</Unit>
 		<Unit filename="C:/Users/Jan.BLATTER/Documents/GitHub/BatailleNavale-/code/main.c">
 			<Option target="code"/>
 		</Unit>
