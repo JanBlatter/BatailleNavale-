@@ -19,6 +19,10 @@ stdlib.h
 -
 windows.h
 -
+mmsystem.h
+-
+time.h
+-
 fonctions.h
 C:/Users/Jan.BLATTER/Documents/GitHub/BatailleNavale-/code/fonctions.h
 
