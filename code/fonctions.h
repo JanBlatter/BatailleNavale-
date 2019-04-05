@@ -24,7 +24,7 @@ int Condition=0;        //compteur pour l'affichage des coordonnées
 int Score=100;                      // compteur pour le score
 FILE *fpscore;                  // variable du fichier
 int caractereActuel = 0;                        // caractere pour lire
-int fgetc(FILE* pointeurDeFichier);
+int fgetc(FILE* pointeurDeFichier);             //le pointeur pour lire
 
 
 // Les Grilles
@@ -123,13 +123,13 @@ void Jeu(){
         fpscore = fopen("Score.txt", "a+");
         fprintf(fpscore, "%s \n", nom);
     }
-    printf("Veuillez-choisir votre grille\n");
+    printf("Veuillez-choisir votre grille\n");                      //choisit la grille basique ou aléatoire
     printf(" Taper 1 pour choisir la grille de base\n");
     printf(" Taper 2 pour choisir une grille aléatoire parmis 3 grilles \n");
 
     scanf("%d", &choix2);
 
-    switch (choix2) {
+    switch (choix2) {                                               //switch pour créer les grilles  en fonction du choix
         case 1:
             for (ligne = 0; ligne < 8; ligne++) {
                 for (colonne = 0; colonne < 8; colonne++) {
@@ -142,7 +142,7 @@ void Jeu(){
             choix3 = rand() %3;
             switch (choix3) {
                 case 1:
-                    for (ligne = 0; ligne < 8; ligne++) {
+                    for (ligne = 0; ligne < 8; ligne++) {                                                   // boucles pour créer les grilles aléatoires
                         for (colonne = 0; colonne < 8; colonne++) {
                             grilleVierge[ligne][colonne] = grilleAleatoire[ligne][colonne];
                         }

@@ -8,7 +8,7 @@
 #pragma execution_character_set("utf-8") // pour accents
 /* Auteur : Jan blatter
  * Date : 08.03.2019
- * Nom du fichier : Bataille navale1
+ * Nom du fichier : Bataille navale-
  * Version : 1.0
  */
 
