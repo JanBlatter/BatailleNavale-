@@ -24,7 +24,7 @@ int Condition=0;        //compteur pour l'affichage des coordonnées
 int Score=100;                      // compteur pour le score
 FILE *fpscore;                  // variable du fichier
 int caractereActuel = 0;                        // caractere pour lire
-
+int fgetc(FILE* pointeurDeFichier);
 
 
 // Les Grilles
