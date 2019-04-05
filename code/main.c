@@ -8,7 +8,7 @@
 #pragma execution_character_set("utf-8") // pour accents
 /* Auteur : Jan blatter
  * Date : 08.03.2019
- * Nom du fichier : Bataille navale
+ * Nom du fichier : Bataille navale1
  * Version : 1.0
  */
 
@@ -26,17 +26,26 @@ int main() {
     printf("Taper 3 pour afficher l'aide\n");
     printf("Taper 4 pour quitter\n");
 
-
     scanf("%d", &choix);              //le choix du joueur
     system("cls");
 
 
+    if (choix  <1 || choix >4){                                  // Message pour éviter que l'utilisateur puisse taper des nombres qui ne sont pas des cases
+        printf("Taper de 1 à 4 ...\n");
+        system("pause");
+        system("cls");
+        return main();
+    }
+
+
+
     switch (choix) {
         case 1: Jeu();
-            break;
+                break;
 
         case 2: // Score des anciennes parties
             AfficherScore();
+            main();;
             break;
 
         case 3:

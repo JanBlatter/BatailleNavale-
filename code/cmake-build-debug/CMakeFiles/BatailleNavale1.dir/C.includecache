@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Jan.BLATTER/Documents/GitHub/BatailleNavale1/fonctions.h
+stdlib.h
+-
+stdio.h
+-
+
+C:/Users/Jan.BLATTER/Documents/GitHub/BatailleNavale1/main.c
+stdio.h
+-
+stdlib.h
+-
+windows.h
+-
+mmsystem.h
+-
+time.h
+-
+fonctions.h
+C:/Users/Jan.BLATTER/Documents/GitHub/BatailleNavale1/fonctions.h
+
