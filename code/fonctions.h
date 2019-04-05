@@ -206,7 +206,7 @@ void Jeu(){
         printf("veuillez-choisir une coordonnée de 0 à 7 (Vertical)\n");
         scanf("%d", &ColonneChoisi);
 
-        if (grille2[LigneChoisi][ColonneChoisi] != 1 && grille2[LigneChoisi][ColonneChoisi] != 2 &&
+        if (grille2[LigneChoisi][ColonneChoisi] != 1 && grille2[LigneChoisi][ColonneChoisi] != 2 &&                    // Fonction pour afficher vous avez raté
             grille2[LigneChoisi][ColonneChoisi] != 3 && grille2[LigneChoisi][ColonneChoisi] != 4) {
             printf("Vous avez raté\n");
             grille[LigneChoisi][ColonneChoisi] = 'R';
@@ -267,7 +267,7 @@ void Jeu(){
             }
         }
     }
-    fclose(fpscore);
+    fclose(fpscore);            // Fin du fichier score.txt
 }
 
 

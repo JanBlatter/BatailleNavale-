@@ -30,7 +30,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-60">
+            <state>
               <caret column="18" selection-start-column="18" selection-end-column="18" />
             </state>
           </provider>
@@ -39,8 +39,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fonctions.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1964">
-              <caret line="144" column="152" selection-start-line="144" selection-start-column="152" selection-end-line="144" selection-end-column="152" />
+            <state relative-caret-position="3485">
+              <caret line="268" column="5" lean-forward="true" selection-start-line="268" selection-start-column="5" selection-end-line="268" selection-end-column="5" />
               <folding>
                 <element signature="e#98#117#0" expanded="true" />
               </folding>
@@ -74,6 +74,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -90,7 +91,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -133,16 +133,17 @@
       <workItem from="1554445023832" duration="1260000" />
       <workItem from="1554464650745" duration="246000" />
       <workItem from="1554471344650" duration="79000" />
+      <workItem from="1554473819807" duration="89000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15471000" />
+    <option name="totallyTimeSpent" value="15560000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12846482" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12953092" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -177,15 +178,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-60">
+        <state>
           <caret column="18" selection-start-column="18" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fonctions.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1964">
-          <caret line="144" column="152" selection-start-line="144" selection-start-column="152" selection-end-line="144" selection-end-column="152" />
+        <state relative-caret-position="3485">
+          <caret line="268" column="5" lean-forward="true" selection-start-line="268" selection-start-column="5" selection-end-line="268" selection-end-column="5" />
           <folding>
             <element signature="e#98#117#0" expanded="true" />
           </folding>
