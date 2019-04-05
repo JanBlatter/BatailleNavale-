@@ -22,9 +22,9 @@ int main() {
     printf("Menu : Que voulez-vous faire ?\n\n");
 
     printf("Taper 1 pour Jouer\n");      // Affiche le menu
-    printf("Taper 2 pour voir les scores\n");
-    printf("Taper 3 pour afficher l'aide\n");
-    printf("Taper 4 pour quitter\n");
+    printf("Taper 2 pour voir les scores\n");               // Affiche les scores
+    printf("Taper 3 pour afficher l'aide\n");               // affiche l'aide
+    printf("Taper 4 pour quitter\n");                   // quitte le programme
 
     scanf("%d", &choix);              //le choix du joueur
     system("cls");
@@ -39,18 +39,18 @@ int main() {
 
 
 
-    switch (choix) {
-        case 1: Jeu();
+    switch (choix) {                //switch pour le choix
+        case 1: Jeu();          // fonction Jeu
                 break;
 
         case 2: // Score des anciennes parties
-            AfficherScore();
-            main();;
+            AfficherScore();        //Fonction affiche le score
+            main();                 // Retourne au main
             break;
 
         case 3:
-            AfficherAide();
-            main();
+            AfficherAide();             // Fonction Affiche l'aide
+            main();  // Retourne au main
             break;
 
 
